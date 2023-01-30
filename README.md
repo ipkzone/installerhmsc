@@ -4,10 +4,12 @@ Installer libs HMSC Android &amp; Windows | Libs hmsc by Eddie Kidiw ( Suhaidi )
 View tools installer hmsc for windows
 <center><img src="Windows/image.png" alt="tools"></center>
 
-
-
-
-
+Step installations Installer for Windows
+> Perintah di bawah untuk menjalankan tools nya
+```
+$ git clone https://github.com/ipkzone/installerhmsc
+$ php main.php
+```
 
 
 Step installations Installer for android
@@ -33,8 +35,7 @@ $ uname -a
 > Lalu jalankan installer anda ikuti command di bawah ini.
 ```
 $ git clone https://github.com/ipkzone/installerhmsc
-$ cd /klikindomaret_tools
-$ cd /installer
+$ cd Android
 $ php installer.php --aarch64_php7
 ```
 Keterangan
