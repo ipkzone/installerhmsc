@@ -1,8 +1,9 @@
 # installerhmsc
 Installer libs HMSC Android &amp; Windows | Libs hmsc by Eddie Kidiw ( Suhaidi )
 
-View tools installer hmsc for windows
+View tools installer hmsc for windows & android
 <center><img src="Windows/image.png" alt="tools"></center>
+<center><img src="Android/hmsc.png" alt="tools"></center>
 
 Step installations Installer for Windows
 > Perintah di bawah untuk menjalankan tools nya
@@ -36,11 +37,6 @@ $ uname -a
 ```
 $ git clone https://github.com/ipkzone/installerhmsc
 $ cd Android
-$ php installer.php --aarch64_php7
+$ php run.php
 ```
-Keterangan
-> --armv7_php7 ( Untuk PHP versi 7 dengan karnel armv7 )<br>
-> --aarch64_php7 ( Untuk PHP versi 7 dengan karnel aarch64 )<br>
-> --armv7_php8 ( Untuk PHP versi 8 dengan karnel armv7 )<br>
-> --aarch64_php8 ( Untuk PHP versi 8 dengan karnel aarch64 )<br>
 
