@@ -15,7 +15,7 @@ echo "\n{$Green}
     ██╔══██║██║╚██╔╝██║╚════██║██║     
     ██║  ██║██║ ╚═╝ ██║███████║╚██████╗
     ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝ ╚═════╝
-    {$White}Installer Libs HMSC Termux linux
+    {$White}Installer Libs HMSC Termux linux v2.0
     Author: Iddant ID
 \n";
 echo "
