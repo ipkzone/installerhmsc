@@ -1,9 +1,8 @@
 # installerhmsc
 Installer libs HMSC Android &amp; Windows | Libs hmsc by Eddie Kidiw ( Suhaidi )
 
-View tools installer hmsc for windows & android
-<center><img src="Windows/image.png" alt="tools"></center>
-<center><img src="Android/hmsc.png" alt="tools"></center>
+> Download xampp 7.4.3 .exe
+<center><img src="1.png" alt="tools"></center>
 
 Step installations Installer for Windows
 > Perintah di bawah untuk menjalankan tools nya
@@ -12,31 +11,27 @@ $ git clone https://github.com/ipkzone/installerhmsc
 $ php main.php
 ```
 
+<center><img src="2.png" alt="tools"></center>
+
+- [x] Pilih no 2
+- [x] Pilih lagi no 2
+
+lalu cek lagi php -v
+maka tampilannya akan seperti ini.
+<center><img src="3.png" alt="tools"></center>
+
 
 Step installations Installer for android
-> Untuk cek php anda versi berapa ketikan command di bawah ini.
-```shell
-$ php -v
+
+# installer termux-php-hmsc
+Php Hide My Source Code
+# usage
+${{\color{red}requires\ php\ version\ 8.3.X}}$
+
+
+```bash
+bash <(curl -sL https://github.com/EddieKidiw/termux-php-hmsc/raw/master/hmsc-installer.sh)
 ```
-
-
-> Response<br>
-> PHP 7.4.27 (cli) (built: Dec 14 2021 19:52:13) ( ZTS Visual C++ 2017 x64 )
-Copyright (c) The PHP Group<br>
-> Berarti Versi PHP kamu versi 7<br>
-> Step selanjutnya kamu tinggal cek karnel HP kamu ketikan command di bawah ini.
-
-
-```shell
-$ uname -a
-```
-> Response<br>
-> Linux localhost 4.9.227-perf+ #1 SMP PREEMPT Thu May 5 15:46:07 CST 2022 aarch64 Android<br>
-> Berarti karnel kamu adalah (aarch64)<br>
-> Lalu jalankan installer anda ikuti command di bawah ini.
-```
-$ git clone https://github.com/ipkzone/installerhmsc
-$ cd Android
-$ php run.php
-```
-
+Options
+- [x] Install
+- [x] Uninstall
