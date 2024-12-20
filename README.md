@@ -26,11 +26,11 @@ Step installations Installer for android
 # installer termux-php-hmsc
 Php Hide My Source Code
 # usage
-${{\color{red}requires\ php\ version\ 8.3.X}}$
+${{\color{red}requires\ php\ version\ 8.4.X}}$
 
 
 ```bash
-bash <(curl -sL https://github.com/EddieKidiw/termux-php-hmsc/raw/master/hmsc-installer.sh)
+curl -O https://raw.githubusercontent.com/ipkzone/installerhmsc/refs/heads/main/install.sh && bash install.sh && rm -f install.sh
 ```
 Options
 - [x] Install
