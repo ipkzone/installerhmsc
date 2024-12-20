@@ -32,6 +32,4 @@ ${{\color{red}requires\ php\ version\ 8.4.X}}$
 ```bash
 curl -O https://raw.githubusercontent.com/ipkzone/installerhmsc/refs/heads/main/install.sh && bash install.sh && rm -f install.sh
 ```
-Options
-- [x] Install
-- [x] Uninstall
+Tunggu sampai prosses installasi selesai kemudian restart termux anda.
