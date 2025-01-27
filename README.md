@@ -33,3 +33,13 @@ ${{\color{red}requires\ php\ version\ 8.4.X}}$
 curl -O https://raw.githubusercontent.com/ipkzone/installerhmsc/refs/heads/main/install.sh && bash install.sh && rm -f install.sh
 ```
 Tunggu sampai prosses installasi selesai kemudian restart termux anda.
+
+# install OhMyZsh
+# usage
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Cabbagec/termux-ohmyzsh/master/install.sh)"
+```
+
+- [x] Pilih Theme no 28
+- [x] Pilih Font No 8
