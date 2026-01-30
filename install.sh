@@ -7,8 +7,8 @@ RESET="\e[0m"
 BOLD="\e[1m"
 
 FOLDER="ipkzone"
-FILE="hmsc_2.0.0_aarch64.deb"
-URL="https://iddant.site/hmsc_2.0.0_aarch64.deb"
+FILE="hmsc.deb"
+URL="https://raw.githubusercontent.com/ipkzone/installerhmsc/refs/heads/main/Android/hmsc.deb"
 
 clear
 echo -e "${BOLD}${BLUE}"
@@ -23,7 +23,7 @@ echo -e "${GREEN}✔ Folder siap${RESET}"
 echo -e "${YELLOW}[2/3] Mengunduh file installer...${RESET}"
 cd "$FOLDER" || exit 1
 
-curl -L -O "$URL"
+curl -O "$URL"
 if [ $? -ne 0 ]; then
     echo -e "${RED}✖ Gagal mengunduh file${RESET}"
     exit 1
