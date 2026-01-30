@@ -30,7 +30,7 @@ if [ $? -ne 0 ]; then
 fi
 echo -e "${GREEN}✔ Download selesai${RESET}"
 echo -e "${YELLOW}[3/3] Menginstall paket...${RESET}"
-sudo dpkg -i "$FILE"
+dpkg -i "$FILE"
 
 if [ $? -eq 0 ]; then
     echo -e "${BOLD}${GREEN}"
